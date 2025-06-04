@@ -29,23 +29,11 @@ cd genAI-for-Architects
 
 If you don't have Poetry installed, install it by following the instructions at [Python Poetry Installation](https://python-poetry.org/docs/#installation).
 
-For Windows:
-```powershell
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
-```
-
-For macOS/Linux:
-```bash
-curl -sSL https://install.python-poetry.org | python3 -
-```
+follow instructions from here: https://python-poetry.org/docs/#installing-with-the-official-installer
 
 ### 3. Create .env file with OpenAI API key
 
 Create a file named `.env` in the root directory of the project:
-
-```powershell
-New-Item .env -ItemType File
-```
 
 Add your OpenAI API key to this file:
 
